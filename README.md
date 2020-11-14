@@ -88,6 +88,41 @@ const arr = [ [10, 20, 30],
 greatestSum(arr); //180
 ```
 
+### Contains Duplicate
+
+**Given an array of integers and an integer k, find out whether there are two distinct indices i and j in the array such that `nums[i] = nums[j]` and the absolute difference between i and j is at most k.**
+
+<br>
+
+#### Example 1:
+
+```js
+__Input__: nums = [1,2,3,1], k = 3
+__Output__: true
+```
+
+<br>
+
+#### Example 2:
+
+```js
+__Input__: nums = [1,2,3,1,2,3], k = 2
+__Output__: false
+```
+
+<br>
+<hr>
+
+## Starter Code
+```
+const arr = [1,0,1,1];
+const k = 1;
+
+containsNearbyDuplicate(arr, k); //true
+
+```
+
+
 ## Anagrams
 
 
