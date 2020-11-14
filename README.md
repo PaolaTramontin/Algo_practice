@@ -138,25 +138,58 @@ anagrams('RAIL! SAFETY!', 'fairy tales') --> True
 anagrams('Hi there', 'Bye there') --> False
 ```
 
-## Fizzbuzz
+### Valid Parentheses
 
+Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
+An input string is valid if:
 
-Write a program that console logs the numbers
-from 1 to n. But for multiples of three print
-“fizz” instead of the number and for the multiples
-of five print “buzz”. For numbers which are multiples
-of both three and five print “fizzbuzz”.
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
+Note that an empty string is also considered valid.
 
-## Example
+##### Example:
+
+__Input__: `()`
+__Output__: `true`
+
+#### Example 2:
+
+__Input__: `()}`
+__Output__: `false`
+
+<br>
+<hr>
+
+#### Starter Code
+
 ```
-  fizzBuzz(5);
-  1
-  2
-  fizz
-  4
-  buzz
-  ```
+const str = "(()";
+
+validParen(str); // false
+```
+<hr>
+<br>
+<br>
+
+### Longest Valid Parentheses
+
+Given a string containing any characters between the numbers a-b and the characters '(' and ')', find the length of the longest valid (well-formed) parentheses substring.
+<br>
+
+##### Example
+
+__Input__: `(a()`
+__Output__: `2`
+
+__Explanation__: The longest valid parentheses substring is "()"
+
+
+```
+const str = "(a()";
+
+longestValidParen(str); //2
+```
   
  
   ## reverseInt
@@ -172,28 +205,5 @@ ordering of numbers.
   reverseInt(-90) === -9
   ```
   
-  ## Steps
- 
-  Write a function that accepts a positive number N.
-The function should console log a step shape
-with N levels using the # character.  Make sure the
-step has spaces on the right hand side!
-## Examples
-```
-  steps(2)
-      '# '
-      '##'
-  steps(3)
-      '#  '
-      '## '
-      '###'
-  steps(4)
-      '#   '
-      '##  '
-      '### '
-      '####'
-      
-      ```
   
-
 
