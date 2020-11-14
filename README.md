@@ -74,8 +74,9 @@ console.log(findHighestFrequency(freqs));
 
 > => { hi: 1 }
 
-## 3
 ## Anagrams
+## 3
+
 Check to see if two provided strings are anagrams of eachother.
 One string is an anagram of another if it uses the same characters
 in the same quantity. Only consider characters, not spaces
@@ -86,8 +87,9 @@ anagrams('rail safety', 'fairy tales') --> True
 anagrams('RAIL! SAFETY!', 'fairy tales') --> True
 anagrams('Hi there', 'Bye there') --> False
 
-## 4
 ## Fizzbuzz
+## 4
+
 
 Write a program that console logs the numbers
 from 1 to n. But for multiples of three print
@@ -114,5 +116,26 @@ ordering of numbers.
   reverseInt(500) === 5
   reverseInt(-15) === -51
   reverseInt(-90) === -9
+  
+  ## Steps
+  ## 6
+  Write a function that accepts a positive number N.
+The function should console log a step shape
+with N levels using the # character.  Make sure the
+step has spaces on the right hand side!
+--- Examples
+  steps(2)
+      '# '
+      '##'
+  steps(3)
+      '#  '
+      '## '
+      '###'
+  steps(4)
+      '#   '
+      '##  '
+      '### '
+      '####'
+  
 
 
