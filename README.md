@@ -132,9 +132,11 @@ in the same quantity. Only consider characters, not spaces
 or punctuation.  Consider capital letters to be the same as lower case
 
 ## Examples
+```
 anagrams('rail safety', 'fairy tales') --> True
 anagrams('RAIL! SAFETY!', 'fairy tales') --> True
 anagrams('Hi there', 'Bye there') --> False
+```
 
 ## Fizzbuzz
 
@@ -147,12 +149,14 @@ of five print “buzz”. For numbers which are multiples
 of both three and five print “fizzbuzz”.
 
 ## Example
+```
   fizzBuzz(5);
   1
   2
   fizz
   4
   buzz
+  ```
   
  
   ## reverseInt
@@ -160,11 +164,13 @@ of both three and five print “fizzbuzz”.
   Given an integer, return an integer that is the reverse
 ordering of numbers.
 ## Examples
+```
   reverseInt(15) === 51
   reverseInt(981) === 189
   reverseInt(500) === 5
   reverseInt(-15) === -51
   reverseInt(-90) === -9
+  ```
   
   ## Steps
  
