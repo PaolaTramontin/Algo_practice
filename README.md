@@ -74,8 +74,22 @@ console.log(findHighestFrequency(freqs));
 
 > => { hi: 1 }
 
+### Loop the Loop: 2D Array Additon
+
+**Make a function that returns the greatest sum of a row or column from a two dimensional array**
+
+
+Make a function that takes one argument, a two dimensional array, where all the arrays are the same length, and returns the greatest sum of the numbers by row and column.
+```
+const arr = [ [10, 20, 30],
+            [40, 50, 60],
+            [70, -80, 90] ];
+
+greatestSum(arr); //180
+```
+
 ## Anagrams
-## 3
+
 
 Check to see if two provided strings are anagrams of eachother.
 One string is an anagram of another if it uses the same characters
@@ -88,7 +102,7 @@ anagrams('RAIL! SAFETY!', 'fairy tales') --> True
 anagrams('Hi there', 'Bye there') --> False
 
 ## Fizzbuzz
-## 4
+
 
 
 Write a program that console logs the numbers
@@ -105,7 +119,7 @@ of both three and five print “fizzbuzz”.
   4
   buzz
   
-  ## 5
+ 
   ## reverseInt
   
   Given an integer, return an integer that is the reverse
@@ -118,7 +132,7 @@ ordering of numbers.
   reverseInt(-90) === -9
   
   ## Steps
-  ## 6
+ 
   Write a function that accepts a positive number N.
 The function should console log a step shape
 with N levels using the # character.  Make sure the
